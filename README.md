@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+ you can also see it on my linkdin post  [https://www.linkedin.com/posts/adityajain2309_nextjs-mongodb-nodejs-activity-7323348242681815040-7Lq9?utm_source=share&utm_medium=member_android&rcm=ACoAAD813ckBAQwRvN7yqZp0eT52nZKBfwsN3cA]
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
