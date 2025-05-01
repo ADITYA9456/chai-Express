@@ -40,3 +40,21 @@
 ```bash
 git clone https://github.com/your-username/chai-express.git
 cd chai-express
+
+You have to also add this 
+
+
+# MongoDB Connection
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/chai-express
+
+# GitHub OAuth for NextAuth
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
+
+# Razorpay Keys
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+
+# NextAuth Config
+NEXTAUTH_URL=http://localhost:3000
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
