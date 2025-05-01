@@ -1,37 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chai Express – A Creator Support Platform
 
-## Getting Started
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tech](https://img.shields.io/badge/stack-MERN-blue)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
 
-First, run the development server:
+*Chai Express* is a modern web platform that enables creators to receive financial support from their audience through small contributions. The platform features secure GitHub OAuth login, personalized dashboards, real-time support messages, and seamless Razorpay integration for UPI, cards, and wallets.
 
+---
+
+## Features
+
+- GitHub OAuth authentication for creators
+- Personalized dashboards
+- Razorpay integration for payments
+- Real-time supporter messages
+- Clean and responsive UI (Next.js + Tailwind CSS)
+
+---
+
+## Tech Stack
+
+- *Frontend:* Next.js, Tailwind CSS  
+- *Backend:* Node.js, Express.js  
+- *Database:* MongoDB with Mongoose  
+- *Authentication:* GitHub OAuth (via NextAuth.js)  
+- *Payment Gateway:* Razorpay
+
+---
+
+## Demo
+
+[Watch the demo video](#) (Add your video link here)
+
+---
+
+## Installation & Setup
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
- You can also see it on my linkedin post  [https://www.linkedin.com/posts/adityajain2309_nextjs-mongodb-nodejs-activity-7323348242681815040-7Lq9?utm_source=share&utm_medium=member_android&rcm=ACoAAD813ckBAQwRvN7yqZp0eT52nZKBfwsN3cA]
+git clone https://github.com/your-username/chai-express.git
+cd chai-express
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You have to also add this 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# MongoDB Connection
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/chai-express
 
-To learn more about Next.js, take a look at the following resources:
+# GitHub OAuth for NextAuth
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Razorpay Keys
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# NextAuth Config
+NEXTAUTH_URL=http://localhost:3000
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
