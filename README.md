@@ -8,17 +8,17 @@
 
 ---
 
-## Features
+## ✨ Features
 
-- GitHub OAuth authentication for creators
-- Personalized dashboards
-- Razorpay integration for payments
-- Real-time supporter messages
-- Clean and responsive UI (Next.js + Tailwind CSS)
+- 🔐 GitHub OAuth authentication for creators  
+- 📊 Personalized dashboards  
+- 💸 Razorpay integration for payments  
+- ⚡ Real-time supporter messages  
+- 📱 Clean and responsive UI (Next.js + Tailwind CSS)
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - *Frontend:* Next.js, Tailwind CSS  
 - *Backend:* Node.js, Express.js  
@@ -28,34 +28,15 @@
 
 ---
 
-## Demo
+## 🎥 Demo
 
-[Watch the demo video](#) ([(https://www.linkedin.com/posts/adityajain2309_nextjs-mongodb-nodejs-activity-7323348242681815040-7Lq9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD813ckBAQwRvN7yqZp0eT52nZKBfwsN3cA]))
+[Watch the demo video](#) (Add your video link here)
 
 ---
 
-## Installation & Setup
+## ⚙ Installation & Setup
 
-### 1. Clone the Repository
+### 1. 📦 Clone the Repository
 ```bash
 git clone https://github.com/your-username/chai-express.git
-cd chai-express
-
-
-You have to also add this 
-
-
-# MongoDB Connection
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/chai-express
-
-# GitHub OAuth for NextAuth
-GITHUB_ID=your_github_client_id
-GITHUB_SECRET=your_github_client_secret
-
-# Razorpay Keys
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-
-# NextAuth Config
-NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
+cd chai-express
